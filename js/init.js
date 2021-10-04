@@ -33,7 +33,7 @@ function submit() {
 function wsGet() {
     let ws = 0;
     do {
-        ws = prompt("请输入位数");
-    } while (!(ws === "" || verify(ws, 1)));
+        ws = prompt("请输入位数","4").trim();
+    } while (ws === "" || !(verify(ws, 1)));
     return ws * 1;
 }
