@@ -11,7 +11,7 @@ document.querySelector("#num").addEventListener("keyup", function () {
     }
 });
 document.querySelector("#num").addEventListener("keydown", (key) => {
-    if (key.key = "Enter") {
+    if (key.key === "Enter") {
         submit();
     }
 });
