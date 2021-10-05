@@ -1,7 +1,7 @@
 time = 0;
 ws = wsGet();
 ans = gen(ws);
-console.log(ans);
+// console.log(ans);
 document.querySelector("#submit").addEventListener("click", submit);
 document.querySelector("#num").addEventListener("keyup", function () {
     if (verify(this.value, ws)) {
